@@ -1,0 +1,169 @@
+body{
+    /* background-color: aqua; */
+    margin: 0px;
+    padding: 0px;
+}
+#gameslist11{
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#navbar{
+    display: flex;
+    background-color: black;
+    opacity: 0.8;
+    position: sticky;
+    top : 0px;
+    z-index: 2;
+    flex-direction: column;
+}
+#navbar ul li a{
+    text-decoration: none;
+    margin : 0px 5px;
+    color: white;
+    padding: 10px 10px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 1rem;
+    
+}
+#navbar ul li {
+    justify-content: center;
+    
+}
+#logo{
+    display: block;
+    margin: auto;
+}
+#Description::before{
+    display: block;
+    margin: auto;
+    content: "";
+   background: url('/CSS/bg1.webp') no-repeat center center/cover;
+   position: absolute;
+   height: 80%;
+   width : 100%;
+   top:0px;
+   left : 0px;
+   /* border: 2px solid red; */
+   box-shadow: 10px 0px 30px black;
+   z-index: -1;
+   opacity: 0.6;
+}
+#Description{
+    /* font-size: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 200px 25px 57px 25px;
+}
+.h-primary{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+}
+.para{
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+.gameslist{
+    transform: scale(0.7);
+    margin: -24px 40px;
+}
+.gameslist:hover{
+    /* justify-content: center; */
+   transform: scale(0.9);
+    
+}
+#name{
+    display: flex;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    height: 3vh;
+    width: 40vw;
+    color: black;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    
+}
+#email{
+    display: flex;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    height: 3vh;
+    width: 40vw;
+    color: black;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    
+}
+#number{
+    display: flex;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    height: 3vh;
+    width: 40vw;
+    color: black;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    
+}
+#issue{
+    display: flex;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    height: 7vh;
+    width: 40vw;
+    color: black;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+}
+
+#query form label{
+    display: flex;
+    margin: 10px auto;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+   /*  text-align: center; */
+    color: white;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+}
+#query::before{
+    
+    text-align: center;
+    content: "";
+    background: url('/CSS/query.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 486px;
+    width : 100%;
+    
+    z-index: -1;
+    opacity: 0.6;
+}
+footer{
+    height: 5vh;
+    background-color: gray;
+    color: white;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+    padding: 50px;
+    font-size: 1rem;
+}
+#formgroup{
+    padding: 80px;
+}

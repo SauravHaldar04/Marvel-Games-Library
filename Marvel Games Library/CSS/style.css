@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 2, 31);
+}
+#navbar{
+    display: flex;
+    background-color: black;
+    opacity: 0.8;
+    position: sticky;
+    top : 0px;
+    z-index: 2;
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+#navbar ul li {
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    margin : 10px 30px;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-size: 1.5rem;
+    
+}
+#navbar ul li a:hover{
+    background-color: gray;
+    border-radius: 20px;
+    
+}
+#logo{
+    margin : 10px 30px;
+}
+#Description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 400px 100px 57px 100px;
+}
+.h-primary{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+}
+#Description::before{
+    content: "";
+   background: url('/CSS/bg1.webp') no-repeat center center/cover;
+   position: absolute;
+   height: 100%;
+   width : 100%;
+   top:0px;
+   left : 0px;
+   /* border: 2px solid red; */
+   box-shadow: 10px 0px 30px black;
+   z-index: -1;
+   opacity: 0.6;
+
+}
+.para{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+#gameslist11{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.gameslist{
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(18, 14, 61);;
+    border : 2px solid rgb(255, 255, 255);
+    margin: 10px 40px;
+    border-radius: 25px;
+    transition: all ease-in-out 0.7s 0.2s;
+    box-shadow: 0px 0px 6px 3px white;
+}
+.gameslist:hover{
+    /* justify-content: center; */
+   transform: scale(1.2);
+    background-color: rgb(79, 90, 174);
+    border : 2px solid rgb(255, 255, 255);
+    margin: 10px 40px;
+    border-radius: 25px;
+    box-shadow:0px 0px 8px 3px white ;
+}
+h2{
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+}
+.gameslist img{
+    /* justify-content: center; */
+    margin: 20px 20px;
+
+}
+.btn1{
+    color: white;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 30px;
+    background-color: rgb(15, 134, 15);
+    border-radius: 10px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    
+    cursor: pointer;
+    font-size: 1.4rem;
+
+}
+.btn1:hover{
+    
+    background-color: rgb(92, 216, 92);
+    border: 1px solid white;
+   
+    
+    cursor: pointer;
+    font-size: 1.4rem;
+
+}
+#para2{
+    margin: 30px 10px;
+    
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+}
+#query h1{
+    margin : 200px;
+    
+}
+
+#name{
+    display: flex;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    height: 35px;
+    width: 600px;
+    color: black;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    
+}
+#email{
+    display: flex;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    height: 35px;
+    width: 600px;
+    color: black;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    
+}
+#number{
+    display: flex;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    height: 35px;
+    width: 600px;
+    color: black;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    
+}
+#issue{
+    display: flex;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    height: 200px;
+    width: 600px;
+    color: black;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+}
+
+#query form label{
+    display: flex;
+    margin: 20px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+   
+}
+#query::before{
+    
+    text-align: center;
+    content: "";
+    background: url('/CSS/query.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 1000px;
+    width : 100%;
+    
+    z-index: -1;
+    opacity: 0.6;
+}
+#formgroup{
+    padding: 200px;
+}
+footer{
+    height: 5vh;
+    background-color: gray;
+    color: white;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+    padding: 50px;
+    font-size: 1.2rem;
+}
